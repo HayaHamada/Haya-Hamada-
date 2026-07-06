@@ -1,0 +1,18 @@
+{
+  "name": "l4-project",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "ejs": "^3.1.10",
+    "express": "^5.0.0",
+    "mongoose": "^8.24.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
